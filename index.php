@@ -22,9 +22,9 @@ if (!empty($user) && $route === 'login') {
 
 // update routes
 $routes = [
-        'login' => 'login.php',
-        'home' => 'home.php',
-        'logout' => 'logout.php',
+        'login' => 'public/login.php',
+        'home' => 'public/home.php',
+        'logout' => 'public/logout.php',
 ];
 
 if (!array_key_exists($route, $routes)) {

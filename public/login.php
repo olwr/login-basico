@@ -154,7 +154,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body class="body-<?php
 echo random_int(1, 7); ?>">
-  <form action="../index.php?route=login" method="post">
+  <form action="index.php?route=login" method="post">
     <h3>Login</h3>
     <br/>
 
